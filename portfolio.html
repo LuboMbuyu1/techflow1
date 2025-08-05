@@ -1,79 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Meta Information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - TechFlow Website</title>
-    <link rel="stylesheet" href="C:\Users\lab_services_student\Desktop\TechFlow-Website\css\styles.css">
-</head>
-<body>
-      <!-- Header Section: Contains logo, navigation, and contact info -->
-<header class="header">
-    <div class="logo">
-        <!-- Company logo image -->
-        <img src="images/logo.jpeg" alt="TechFlow Solutions Logo">
-    </div>
-    <!-- Main navigation links -->
-    <nav class="nav-links" aria-label="Main navigation">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Services</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <!-- Contact information: phone and email -->
-    <address class="contact-info">
-        <p>📞 <a href="tel:+27123456799">+27 12 345 6799</a></p>
-        <p>✉️ <a href="mailto:info@techflow.co.za">info@techflow.co.za</a></p>
-    </address>
-</header>
-    <!-- Main Content Section -->
+    <title>Our Services | TechFlow Solutions</title>
+    <meta name="description" content="Discover the services offered by TechFlow Solutions: custom software development, mobile app solutions, and IT consulting tailored for your business.">
 
-    <!-- Portfolio Section -->
-    <section class="portfolio">
-        <h1>Our Portfolio</h1>
-        <div class="portfolio-container">
-            <article class="portfolio-item">
-                <img src="images/project1.png" alt="Retail Inventory Management Software">
-                <h3>Retail Inventory Management</h3>
-                <p>
-                    Custom software solution developed for a leading retail company to enhance inventory management, automate stock tracking, and generate real-time analytics. Technologies used: React, Node.js, Azure SQL.
-                </p>
+    <!-- Link to Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.jpeg" alt="TechFlow Solutions Logo" loading="lazy">
+            </a>
+        </div>
+
+        <nav class="nav-links" aria-label="Main Navigation">
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="services.html" class="nav-link active">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <address class="contact-info">
+            <p><a href="tel:+27123456799">📞 +27 12 345 6799</a></p>
+            <p><a href="mailto:info@techflow.co.za">✉️ info@techflow.co.za</a></p>
+        </address>
+    </header>
+
+    <!-- Services Section -->
+    <main class="services">
+        <h1>Our Services</h1>
+        <div class="services-container">
+            <!-- Service: Custom Software -->
+            <article class="service-item">
+                <img src="images/custom-software-development.png" alt="Custom Software Development Icon" loading="lazy">
+                <h3>Custom Software Development</h3>
+                <p>We develop tailored software solutions that streamline your operations and boost productivity. Our experts craft scalable and secure applications suited for your exact needs.</p>
                 <ul>
-                    <li>Automated inventory tracking</li>
-                    <li>Real-time reporting dashboard</li>
-                    <li>Integration with POS systems</li>
+                    <li>Business process automation</li>
+                    <li>Enterprise resource planning (ERP)</li>
+                    <li>Cloud-based solutions</li>
+                    <li>API integration</li>
                 </ul>
             </article>
-            <article class="portfolio-item">
-                <img src="images/project2.png" alt="Fitness Mobile App">
-                <h3>Fitness Tracker Mobile App</h3>
-                <p>
-                    Mobile app designed for a fitness startup to track workouts, nutrition, and progress. Features include personalized plans, social sharing, and push notifications. Technologies used: Flutter, Firebase.
-                </p>
+
+            <!-- Service: Mobile App Solutions -->
+            <article class="service-item">
+                <img src="images/mobile-app-solutions.png" alt="Mobile App Solutions Icon" loading="lazy">
+                <h3>Mobile App Solutions</h3>
+                <p>We design and develop mobile apps that drive user engagement across platforms. From user experience to app store deployment, we handle everything.</p>
                 <ul>
-                    <li>Workout and nutrition logging</li>
-                    <li>Progress analytics</li>
-                    <li>Community features</li>
+                    <li>Native and cross-platform apps</li>
+                    <li>UI/UX design</li>
+                    <li>App store deployment</li>
+                    <li>Maintenance & support</li>
                 </ul>
             </article>
-            <article class="portfolio-item">
-                <img src="images/project3.png" alt="Financial IT Consulting">
-                <h3>Financial IT Consulting</h3>
-                <p>
-                    IT consulting project for a financial firm to improve cybersecurity, migrate infrastructure to the cloud, and ensure regulatory compliance. Technologies used: Microsoft Azure, Sentinel, Office 365.
-                </p>
+
+            <!-- Service: IT Consulting -->
+            <article class="service-item">
+                <img src="images/it-consulting.png" alt="IT Consulting Icon" loading="lazy">
+                <h3>IT Consulting</h3>
+                <p>We help organizations make smart tech decisions. Our consulting services include strategy, infrastructure, cybersecurity, and long-term digital transformation planning.</p>
                 <ul>
+                    <li>Technology strategy</li>
+                    <li>Cloud migration</li>
                     <li>Cybersecurity assessment</li>
-                    <li>Cloud migration strategy</li>
-                    <li>Compliance and risk management</li>
+                    <li>IT project management</li>
                 </ul>
             </article>
         </div>
-    </section>
+    </main>
 
+    <!-- Footer -->
     <footer class="footer">
-        <p>&copy; 2025 TechFlow Solutions. All Rights Reserved.</p>
+        <p>&copy; 2025 <strong>TechFlow Solutions</strong>. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
